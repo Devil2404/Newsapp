@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@300&display=swap');
+.Newsi{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    min-width: 230px;
+    width:400px;
+    height: max-content;
+    background: white;
+    border-radius: 14px;
+}
+.newstitle{
+    width: 100%;
+    height: 15vh;
+    padding: 4px;
+    height: max-content;
+}
+.newsimg{
+    width:100%;
+    height: max-content;
+}
+.newsimg img{
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+.newsmore{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: flex-end;
+    box-shadow: 0 -8px 14px -2px silver;
+}
+.newsmore i{
+    font-size: 1.5em;
+    cursor: pointer;
+    transition-delay: transform 0.1s;
+}
+.title{
+    padding: 10px;
+    border-bottom: 2px solid red;
+    margin: 5px;
+    font-weight:900;
+    font-family: 'M PLUS 2', sans-serif;
+}
+.desc{
+    padding: 10px;
+    font-weight: 600;
+    margin: 5px;
+}
+.btn a button{
+width: 100%;
+padding: 10px;
+background:red;
+color: white;
+border: none;
+border-radius: 14px;
+cursor: pointer;
+margin-bottom: 20px;
+}

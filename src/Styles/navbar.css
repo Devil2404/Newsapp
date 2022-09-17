@@ -1,0 +1,52 @@
+.navbar{
+    width: 95%;
+    position: fixed;
+    top: 2%;
+    left: 2.5%;
+    margin: auto auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: transparent;
+    border-radius: 20px;
+    color: white;
+}
+.navbar h1{
+    text-align: center;
+}
+.navbar h1 a{
+    width: 100%;
+    color: white;
+    font-size: bolder;
+    text-decoration: none;
+}
+.nav i{
+    margin-left: 20px;
+    cursor: pointer;
+    color: black;
+    font-size: 1.2em;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:red;
+    color: white;
+    border-radius: 0px;
+    height: max-content;
+    padding: 10px;
+}
+select{
+    background: transparent;
+    border: none;
+    border-radius: 14px;
+    padding-right: 10px;
+    margin-right: 30px;
+    height: max-content;
+    font-size: 1.2em;
+}
